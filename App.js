@@ -1,10 +1,9 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import QrScannerScreen from './components/QrScannerScreen';
-import HistoryScreen from './components/HistoryScreen';
-// import Styles from './components/Styles';
 import Ionicons from 'react-native-vector-icons/Ionicons';
+import QrScannerScreen from './src/components/QrScannerScreen';
+import HistoryScreen from './src/components/HistoryScreen';
 
 const Tab = createBottomTabNavigator();
 

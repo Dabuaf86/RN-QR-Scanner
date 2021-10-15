@@ -1,0 +1,5 @@
+export const TYPES = {
+	SCAN: 'SCAN',
+	STORE_DATA: 'STORE_DATA',
+	OPEN_DATA: 'OPEN_DATA',
+};

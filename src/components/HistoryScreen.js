@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, TextInput, FlatList } from 'react-native';
 import Styles from './Styles';
 
 const HistoryScreen = () => {
